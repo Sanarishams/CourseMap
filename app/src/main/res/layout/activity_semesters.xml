@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:title="Select Semester"
+        android:titleTextColor="@color/white"
+        android:elevation="4dp"/>
+
+    <ScrollView
+        android:id="@+id/semScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Semester list">
+
+        <LinearLayout
+            android:id="@+id/semesterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"/>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- ✨ Elegant pastel blue-gray theme -->
+    <color name="colorPrimary">#5A72A0</color>
+    <color name="colorPrimaryVariant">#3B4D73</color>
+    <color name="colorAccent">#A0C4FF</color>
+
+    <!-- Buttons -->
+    <color name="teal_700">#5A72A0</color>
+
+    <!-- Backgrounds -->
+    <color name="colorBackgroundLight">#F8FAFF</color>
+    <color name="colorBackgroundDark">#2C2C54</color>
+
+    <!-- Gradient -->
+    <color name="gradientStart">#E8F0FE</color>
+    <color name="gradientEnd">#C2D9FF</color>
+
+    <!-- Text -->
+    <color name="white">#FFFFFF</color>
+    <color name="lightText">#E3F2FD</color>
+    <color name="darkText">#1A237E</color>
+</resources>

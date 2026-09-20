@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="@null"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CourseMap"
+        tools:replace="android:allowBackup, android:label, android:appComponentFactory">
+
+        <activity android:name=".PdfViewerActivity" android:exported="false" />
+        <activity android:name=".PdfListActivity" android:exported="false" />
+        <activity android:name=".SubjectActivity" android:exported="false" />
+        <activity android:name=".SemesterActivity" android:exported="false" />
+        <activity android:name=".CategoryActivity" android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

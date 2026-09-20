@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545775347532",
+    "project_id": "coursemap-5f390",
+    "storage_bucket": "coursemap-5f390.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545775347532:android:5f1660bdd240097f7851e9",
+        "android_client_info": {
+          "package_name": "com.example.coursemap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVw3hVlR-nPpWgeN0nwkCD3IyXhHptoME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
